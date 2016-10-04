@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: "Oswald";
+    font-weight: 400;
+    src: url("rsc/Oswald/Oswald-Regular.ttf")
+}
+
+body {
+    background-color: #212121;
+    font-family: "Oswald";
+    color: white;
+}
+
+.left {
+    display: inline-block;
+    width: 50%;
+}
+
+.right {
+    display: inline-block;
+    width: 49%;
+}
+
+.big-button {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: -0.2rem;
+}
+
+.big-button:hover {
+    color: #eaeaea;
+    cursor: pointer;
+}
+
+#group-a {
+    width: 40%;
+    margin: 20rem auto;
+    text-align: center;
+}
+
+#group-b {
+    width: 40%;
+    margin: 20rem auto;
+    text-align: center;
+}
+
+#center {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+#label {
+    text-align: center;
+    font-size: 5rem;
+}
+
+#abort {
+    text-transform: uppercase;
+    font-size: 2rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0.5rem 1rem;
+}
+
+#abort:hover {
+    color: #eaeaea;
+    cursor: pointer;
+}
+
+.volume-icon {
+    font-size: 5rem !important;
+}
