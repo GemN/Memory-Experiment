@@ -47,7 +47,7 @@ body {
 #center {
     position: absolute;
     top: 35%;
-    width: 100%;
+    width: 99%;
 }
 
 #label {
@@ -71,4 +71,26 @@ body {
 
 .volume-icon {
     font-size: 5rem !important;
+}
+
+.selected {
+    color: #EB8031;
+}
+
+.wrong-answer {
+    color: #ff2f3e;
+}
+
+.true-answer {
+    color: #00cb00;
+}
+
+#stats {
+
+}
+
+#stats table {
+    width: 30%;
+    margin: auto;
+    text-align: center;
 }

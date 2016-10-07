@@ -8,7 +8,6 @@ $(function() {
 
     var audioElement = document.createElement('audio');
     audioElement.setAttribute('src', '../rsc/audio/homeless.mp3');
-    audioElement.setAttribute('autoplay', 'autoplay');
 
     var words = [
         "homeless",
@@ -28,6 +27,7 @@ $(function() {
     var idInterval = setInterval(function () {
         if (i > 9) {
             clearInterval(idInterval);
+            window.location = "../commonTest/test.html?group=B";
         } else {
             audioElement.setAttribute('src', '../rsc/audio/' + words[i] + '.mp3');
             audioElement.play();
