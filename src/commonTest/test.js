@@ -84,7 +84,7 @@ $(function() {
                 $('#label').removeClass("selected true-answer wrong-answer");
                 clearInterval(idInterval);
                 testStarted = false;
-                $('#label').html("End of reading part, now Audio part: press start when you hear word you recognize");
+                $('#label').html("End of reading part, now Audio part: press space when you hear word you recognize");
                 setTimeout(audioTest, 4000);
             } else {
                 checkWord(current, true);
