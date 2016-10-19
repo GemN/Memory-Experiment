@@ -2,8 +2,9 @@
 
 ## Description
 
-Simple memory experiment to test the accuracy and response time of visual memory against auditory memory
-Subjects are separated in two group: Group A and Group B
+Simple memory experiment to test the accuracy and response time of visual memory against auditory memory.
+
+Subjects are separated in two group: Group A and Group B.
 
 ### Group A
 Learn 10 words by reading
